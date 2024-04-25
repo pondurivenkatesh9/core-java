@@ -22,3 +22,6 @@ public class Demo {
 		System.out.println(r1);
 	}
 }
+
+// Class will have multiple methods with same name, but with different type/no.of arguments. When we call a method it will run the method whose args are matching
+// usecase: lets say I have a requirement where I need to add more arguments for one of the existing methods. If I update the existing method I have to update all the references. Instead of that I can create new method with same name but with different arguments. I can refernece the same methid with new arguments which automatically calls the new method

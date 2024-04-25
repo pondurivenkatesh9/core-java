@@ -12,7 +12,7 @@ public class hello {
 		
 		int n=5;
 		int result=0;
-		result = n%2==0 ? 10 : 20;
+		result = n%2==0 ? 10 : 20; //ternary which is another format for simple if else
 		System.out.println(result);
 	}
 

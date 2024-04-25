@@ -32,3 +32,5 @@ public class hello {
 	}
 
 }
+
+// literals : instaed of specifing the human understandable numbers we can assign bits (machine understandable)

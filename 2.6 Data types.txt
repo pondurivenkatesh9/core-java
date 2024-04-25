@@ -14,6 +14,8 @@ public class hello {
 		boolean b=true;
 
 
+		// print sizes of data types
+
         System.out.println("Byte size " + Byte.SIZE );
         System.out.println("Short size " + Short.SIZE );
         System.out.println("Int size " + Integer.SIZE );

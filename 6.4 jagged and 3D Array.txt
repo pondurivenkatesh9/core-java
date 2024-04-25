@@ -1,7 +1,7 @@
 public class Demo {
 	public static void main(String[] args) 
 	{
-//		int nums[][]=new int [3][]; //jagged
+//		int nums[][]=new int [3][]; //jagged: multi dimensional arrays with differnt sizes
 //		nums[0]=new int [3];
 //		nums[1]=new int [4];
 //		nums[2]=new int [2];
