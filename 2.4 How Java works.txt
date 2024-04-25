@@ -1,0 +1,12 @@
+
+// print : prints side by side
+// println : prints in a new line
+
+public class hello {
+
+	public static void main(String[] args) {
+		System.out.print("Hello World");
+
+	}
+
+}
