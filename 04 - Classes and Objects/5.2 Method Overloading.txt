@@ -1,0 +1,27 @@
+class Calculator
+{
+	public int add(int n1, int n2, int n3)
+	{
+		return n1+n2+n3;
+	}
+	public int add(int n1, int n2)
+	{
+		return n1+n2;
+	}
+	public double add(double n1, int n2)
+	{
+		return n1+n2;
+	}
+}
+
+
+public class Demo {
+	public static void main(String[] args) {
+		Calculator obj=new Calculator();
+		int r1=obj.add(3,4);
+		System.out.println(r1);
+	}
+}
+
+// Class will have multiple methods with same name, but with different type/no.of arguments. When we call a method it will run the method whose args are matching
+// usecase: lets say I have a requirement where I need to add more arguments for one of the existing methods. If I update the existing method I have to update all the references. Instead of that I can create new method with same name but with different arguments. I can refernece the same methid with new arguments which automatically calls the new method

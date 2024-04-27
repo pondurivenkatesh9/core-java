@@ -1,0 +1,32 @@
+class A extends Object
+{
+	int num= 1;
+}
+
+class B extends A
+{
+	int num=2;
+	public int getValue()
+	{
+		int num=3;
+//		return this.num;  //returns 2
+		return super.num;  //return 1
+	}
+}
+
+
+public class Demo
+{
+	public static void main(String a[]) 
+	{
+		B obj=new B();
+//		System.out.println(obj.num);
+		System.out.println(obj.getValue());
+	}
+}
+
+
+/*
+By default each class extends to Object Class
+observe the difference between this and super in above example
+*/
