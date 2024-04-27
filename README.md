@@ -1,116 +1,116 @@
 # core-java
 
 ## Basic Java Concepts:
-- 	[First code in java](https://github.com/pondurivenkatesh9/core-java/tree/main/01%20-%20Basic%20Java%20Concepts#first-code-in-java)
--	How Java Works
--	Variables in java
--	Data types in java
--	Literal
--	Type conversion
--	Assignment Operators
--	Relational Operators
--	Logical Operators
+- 	[First code in java](01%20-%20Basic%20Java%20Concepts/README.md#First%20code%20in%20java)
+-	[How Java Works](01%20-%20Basic%20Java%20Concepts/README.md#How%20Java%20Works)
+-	[Variables in java](01%20-%20Basic%20Java%20Concepts/README.md#Variables%20in%20java)
+-	[Data types in java](01%20-%20Basic%20Java%20Concepts/README.md#Data%20types%20in%20java)
+-	[Literal](01%20-%20Basic%20Java%20Concepts/README.md#Literal)
+-	[Type conversion](01%20-%20Basic%20Java%20Concepts/README.md#Type%20conversion)
+-	[Assignment Operators](01%20-%20Basic%20Java%20Concepts/README.md#[Assignment%20Operators)
+-	[Relational Operators](01%20-%20Basic%20Java%20Concepts/README.md#Relational%20Operators)
+-	[Logical Operators](01%20-%20Basic%20Java%20Concepts/README.md#Logical%20Operators)
 ## Control Flow:
--	If Else
--	If Else if
--	Ternary
--	Switch Statement
+-	[If Else](02%20-%20Control%20Flow/README.md#If%20Else)
+-	[If Else if](02%2-%2Control%2Flow/README.md#If%20Else%20if)
+-	[Ternary](02%2-%2Control%2Flow/README.md#Ternary)
+-	[Switch Statement](02%2-%2Control%2Flow/README.md#Switch%20Statement)
 ## Loops:
--	Need For Loop
--	While Loop
--	Do While Loop
--	For Loop
--	Which Loop To Use
+-	[Need For Loop](/README.md#)
+-	[While Loop](/README.md#)
+-	[Do While Loop](/README.md#)
+-	[For Loop](/README.md#)
+-	[Which Loop To Use](/README.md#)
 ## Classes and Objects:
--	Class And Object Theory
--	Class and Object Practical
--	JDK JRE JVM
--	Methods
--	Method Overloading
--	Stack And Heap
+-	[Class And Object Theory](/README.md#)
+-	[Class and Object Practical](/README.md#)
+-	[JDK JRE JVM](/README.md#)
+-	[Methods](/README.md#)
+-	[Method Overloading](/README.md#)
+-	[Stack And Heap](/README.md#)
 ## Arrays:
--	Need of an Array
--	Creation of Array
--	Multi Dimensional Array
--	Jagged and 3D Array
--	Drawbacks of Array
--	Array of Objects
--	Enhanced for loop
+-	[Need of an Array](/README.md#)
+-	[Creation of Array](/README.md#)
+-	[Multi Dimensional Array](/README.md#)
+-	[Jagged and 3D Array](/README.md#)
+-	[Drawbacks of Array](/README.md#)
+-	[Array of Objects](/README.md#)
+-	[Enhanced for loop](/README.md#)
 ## Strings:
--	What is String
--	Mutable vs Immutable string
--	StringBuffer and StringBuilder
+-	[What is String](/README.md#)
+-	[Mutable vs Immutable string](/README.md#)
+-	[StringBuffer and StringBuilder](/README.md#)
 ## Static Members:
--	Static variable
--	Static block
--	Static method
+-	[Static variable](/README.md#)
+-	[Static block](/README.md#)
+-	[Static method](/README.md#)
 ## Object-Oriented Programming (OOP) Concepts:
--	Encapsulation
--	Getters and setters
--	this keyword
--	Constructor
--	Default vs Parameterized Constructor
--	this and super method
--	Naming Convention
--	Anonymous Object
+-	[Encapsulation](/README.md#)
+-	[Getters and setters](/README.md#)
+-	[this keyword](/README.md#)
+-	[Constructor](/README.md#)
+-	[Default vs Parameterized Constructor](/README.md#)
+-	[this and super method](/README.md#)
+-	[Naming Convention](/README.md#)
+-	[Anonymous Object](/README.md#)
 ## Inheritance:
--	Need of Inheritance
--	What is Inheritance
--	Single and Multilevel Inheritance
--	Multiple Inheritance
--	Method Overriding
+-	[Need of Inheritance](/README.md#)
+-	[What is Inheritance](/README.md#)
+-	[Single and Multilevel Inheritance](/README.md#)
+-	[Multiple Inheritance](/README.md#)
+-	[Method Overriding](/README.md#)
 ## Packages and Access Modifiers:
--	Packages
--	Access Modifiers
+-	[Packages](/README.md#)
+-	[Access Modifiers](/README.md#)
 ## Polymorphism:
--	Polymorphism
--	Dynamic Method Dispatch
--	Final keyword
--	Object Class equals toString hashcode
--	Upcasting and Downcasting
--	Abstract keyword
+-	[Polymorphism](/README.md#)
+-	[Dynamic Method Dispatch](/README.md#)
+-	[Final keyword](/README.md#)
+-	[Object Class equals toString hashcode](/README.md#)
+-	[Upcasting and Downcasting](/README.md#)
+-	[Abstract keyword](/README.md#)
 ## Inner Classes:
--	Inner class
--	Anonymous Inner class
--	Abstract and Anonymous Inner class
+-	[Inner class](/README.md#)
+-	[Anonymous Inner class](/README.md#)
+-	[Abstract and Anonymous Inner class](/README.md#)
 ## Interfaces:
--	What is Interface
--	More on Interfaces
--	Need of Interface
+-	[What is Interface](/README.md#)
+-	[More on Interfaces](/README.md#)
+-	[Need of Interface](/README.md#)
 ## Enum and Annotations:
--	What is Enum
--	Enum if and switch
--	Enum Class
--	What is Annotation
--	Functional Interface
--	Lambda Expression
--	Lambda Expression with return
--	Types of Interface
+-	[What is Enum](/README.md#)
+-	[Enum if and switch](/README.md#)
+-	[Enum Class](/README.md#)
+-	[What is Annotation](/README.md#)
+-	[Functional Interface](/README.md#)
+-	[Lambda Expression](/README.md#)
+-	[Lambda Expression with return](/README.md#)
+-	[Types of Interface](/README.md#)
 ## Exception Handling:
--	What is Exception
--	Exception Handling using try-catch
--	Try with multiple catch
--	Exception Hierarchy
--	Exception throw keyword
--	Custom Exception
--	Handling Exceptions using throws
--	User Input using BufferedReader and Scanner
--	Try with resources
+-	[What is Exception](/README.md#)
+-	[Exception Handling using try-catch](/README.md#)
+-	[Try with multiple catch](/README.md#)
+-	[Exception Hierarchy](/README.md#)
+-	[Exception throw keyword](/README.md#)
+-	[Custom Exception](/README.md#)
+-	[Handling Exceptions using throws](/README.md#)
+-	[User Input using BufferedReader and Scanner](/README.md#)
+-	[Try with resources](/README.md#)
 ## Multithreading:
--	Threads
--	Multiple Threads
--	Thread Priority and Sleep
--	Runnable vs Thread
--	Race Condition
--	Thread states
+-	[Threads](/README.md#)
+-	[Multiple Threads](/README.md#)
+-	[Thread Priority and Sleep](/README.md#)
+-	[Runnable vs Thread](/README.md#)
+-   [Race Condition](/README.md#)
+-	[Thread states](/README.md#)
 ## Collections:
--	Collection API
--	ArrayList
--	Set
--	Map
--	Comparator vs Comparable
+-	[Collection API](/README.md#)
+-	[ArrayList](/README.md#)
+-	[Set](/README.md#)
+-	[Map](/README.md#)
+-	[Comparator vs Comparable](/README.md#)
 ## Advanced Java:
--	Need of Stream API
--	forEach Method
--	Stream API
--	Map Filter Reduce Sorted
+-	[Need of Stream API](/README.md#)
+-	[forEach Method](/README.md#)
+-	[Stream API](/README.md#)
+-	[Map Filter Reduce Sorted](/README.md#)
