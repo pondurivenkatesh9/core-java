@@ -1,7 +1,7 @@
 # core-java
 
 ## Basic Java Concepts:
-- 	First code in java
+- 	[First code in java](https://github.com/pondurivenkatesh9/core-java/tree/main/01%20-%20Basic%20Java%20Concepts#first-code-in-java)
 -	How Java Works
 -	Variables in java
 -	Data types in java
