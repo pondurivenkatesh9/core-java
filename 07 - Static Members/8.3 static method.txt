@@ -9,6 +9,11 @@ class Mobile{
 		System.out.println(brand+" : "+price+" : "+name);
 	}
 	
+	public static void show1(Mobile obj)
+	{
+//		System.out.println("in static method");
+		System.out.println(obj.brand+" : "+ obj.price +" : "+obj.name);
+	}
 }
 
 public class Demo {
@@ -32,8 +37,13 @@ public class Demo {
 		obj1.show();
 		obj2.show();
 		
+		Mobile.show1(obj1);
+		
 		//System.out.println(obj1.brand);
 
 	
 	}
 }
+
+// In Java, a static method is a method that belongs to the class rather than to any specific instance of the class. This means that you can call a static method without creating an instance of the class.
+

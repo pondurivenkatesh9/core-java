@@ -9,8 +9,8 @@ class B extends A
 	public int getValue()
 	{
 		int num=3;
-//		return this.num;
-		return super.num;
+//		return this.num;  //returns 2
+		return super.num;  //return 1
 	}
 }
 
@@ -24,3 +24,9 @@ public class Demo
 		System.out.println(obj.getValue());
 	}
 }
+
+
+/*
+By default each class extends to Object Class
+observe the difference between this and super in above example
+*/

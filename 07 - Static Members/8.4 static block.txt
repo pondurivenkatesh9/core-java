@@ -39,3 +39,25 @@ public class Demo {
 	
 	}
 }
+
+/*
+public class MyClass {
+    static {
+        // Static block
+        // This block will be executed when the class is loaded
+        // Useful for initializing static variables or performing one-time tasks
+		// no return
+    }
+}
+
+
+public class MyClass {
+    public MyClass() {
+        // Constructor
+        // This code will be executed each time an object of MyClass is created
+        // Useful for initializing instance variables or performing instance-specific tasks
+		// can return something
+    }
+}
+
+*/

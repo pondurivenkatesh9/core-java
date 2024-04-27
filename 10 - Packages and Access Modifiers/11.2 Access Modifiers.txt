@@ -51,3 +51,15 @@ public class Demo{
 	
 	}
 }
+
+/*
+
+
+Access Modifier	 	Within Class	Other Classes in Same Package	Other Classes in Different Packages
+private         		✅						❌								❌
+default					✅						✅								❌
+protected				✅						✅								✅ (only if subclass)
+public					✅						✅								✅
+
+
+*/

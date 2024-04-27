@@ -76,3 +76,11 @@ public class Demo {
 	}
 }
 
+
+
+/*
+
+When a class is initiated, by default it's default constructer is called. i.e, super() : it is a default function which already exist 
+we can parameterize the super and call them with parameters i.e, super(int 5)
+this();  //call constructor of same class
+*/

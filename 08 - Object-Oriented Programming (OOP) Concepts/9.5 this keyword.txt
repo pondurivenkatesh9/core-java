@@ -52,3 +52,10 @@ public class Demo {
 	
 	}
 }
+
+
+/*
+like self in python
+inorder to update the class variable ,
+if this is not added, will get default value
+*/

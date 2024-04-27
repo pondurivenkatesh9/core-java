@@ -1,0 +1,27 @@
+public class Demo {
+	public static void main(String[] args) 
+	{
+		String name="navin";
+		name=name+"reddy";
+		System.out.println("hello"+name);
+		
+		String s1="Navin";
+		String s2="Navin";
+		
+		System.out.println(s1==s2);	
+		
+	}
+}
+
+/*
+Immutable Strings:
+	Strings created using the String class are immutable.
+	Operations like concatenation, substring, etc., return a new string object.
+	Immutable strings are thread-safe, making them suitable for use in multi-threaded environments.
+	They are generally safer to use in concurrent applications.
+Mutable Strings:
+	Strings created using StringBuilder or StringBuffer classes are mutable.
+	Operations like append, insert, delete, etc., modify the existing string buffer object.
+	Mutable strings are not thread-safe by default. StringBuilder is not synchronized, while StringBuffer is synchronized, making it thread-safe.
+	Mutable strings can be more efficient when you need to perform a lot of modifications on the string, as they avoid creating new objects for each modification.
+*/
