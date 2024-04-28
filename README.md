@@ -11,10 +11,10 @@
 -	[Relational Operators](01%20-%20Basic%20Java%20Concepts/README.md#Relational-Operators)
 -	[Logical Operators](01%20-%20Basic%20Java%20Concepts/README.md#logical-operators)
 ## Control Flow:
--	[If Else](02%20-%20Control%20Flow/README.md#If%20Else)
--	[If Else if](02%20-%20Control%20Flow/README.md#If%20Else%20if)
+-	[If Else](02%20-%20Control%20Flow/README.md#If-Else)
+-	[If Else if](02%20-%20Control%20Flow/README.md#If-Else-if)
 -	[Ternary](02%20-%20Control%20Flow/README.md#Ternary)
--	[Switch Statement](02%20-%20Control%20Flow/README.md#Switch%20Statement)
+-	[Switch Statement](02%20-%20Control%20Flow/README.md#Switch-Statement)
 ## Loops:
 -	[Need For Loop](03%20-%20Loops/README.md#need-for-loop)
 -	[While Loop](03%20-%20Loops/README.md#while-loop)
