@@ -2,14 +2,14 @@
 
 ## Basic Java Concepts:
 - 	[First code in java](01%20-%20Basic%20Java%20Concepts/README.md#first-code-in-java)
--	[How Java Works](01%20-%20Basic%20Java%20Concepts/README.md#how%20java%20works)
--	[Variables in java](01%20-%20Basic%20Java%20Concepts/README.md#Variables%20in%20java)
--	[Data types in java](01%20-%20Basic%20Java%20Concepts/README.md#Data%20types%20in%20java)
+-	[How Java Works](01%20-%20Basic%20Java%20Concepts/README.md#how-java-works)
+-	[Variables in java](01%20-%20Basic%20Java%20Concepts/README.md#Variables-in-java)
+-	[Data types in java](01%20-%20Basic%20Java%20Concepts/README.md#Data-types-in-java)
 -	[Literal](01%20-%20Basic%20Java%20Concepts/README.md#Literal)
--	[Type conversion](01%20-%20Basic%20Java%20Concepts/README.md#Type%20conversion)
--	[Assignment Operators](01%20-%20Basic%20Java%20Concepts/README.md#[Assignment%20Operators)
--	[Relational Operators](01%20-%20Basic%20Java%20Concepts/README.md#Relational%20Operators)
--	[Logical Operators](01%20-%20Basic%20Java%20Concepts/README.md#logical%20operators)
+-	[Type conversion](01%20-%20Basic%20Java%20Concepts/README.md#Type-conversion)
+-	[Assignment Operators](01%20-%20Basic%20Java%20Concepts/README.md#Assignment-Operators)
+-	[Relational Operators](01%20-%20Basic%20Java%20Concepts/README.md#Relational-Operators)
+-	[Logical Operators](01%20-%20Basic%20Java%20Concepts/README.md#logical-operators)
 ## Control Flow:
 -	[If Else](02%20-%20Control%20Flow/README.md#If%20Else)
 -	[If Else if](02%20-%20Control%20Flow/README.md#If%20Else%20if)
