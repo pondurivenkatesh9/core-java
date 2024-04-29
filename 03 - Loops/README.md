@@ -1,14 +1,20 @@
 # Loops:
+
 ###	Need For Loop
+
     avoid code repetition
+
 ###	While Loop
+
     while(i<=4)
     {
         System.out.println("Hi"+ i);
         i++;
     }
     System.out.println("Bye"+i);
+
 ###	Do While Loop
+
     int i=1;
     do
     {
@@ -16,12 +22,16 @@
         i++;
     }
     while(i<=4);
+
 ###	For Loop
+
     for(int i=0;i<=4;i++)
     {
         System.out.println("Hi"+i);
     }
+
 ###	Which Loop To Use
+
     For loop:
     If you know how many iterations you want to go for loop
     (intiliazing vaue, condition, increment or decrement)

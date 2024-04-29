@@ -5,7 +5,7 @@ class B extends A{
 	
 }
 //class C extends A,B
-// Multiple inheritance does not supported by Java
+// Multiple inheritance does not supported by Java, need to use interface to achieve some level of it
 // Ambiguity issue
 class C extends B{
 	
