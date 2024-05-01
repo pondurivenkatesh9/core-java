@@ -33,7 +33,7 @@ public class  Demo{
 //    	A.B obj1=obj.new B();
 //    	obj1.config();
     	
-    	A.B obj1=new A.B();
+    	A.B obj1=new A.B();  //only if B is static Class
     	obj1.config();
 
     }

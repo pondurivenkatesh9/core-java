@@ -199,15 +199,12 @@
         The Object class provides default implementations for these methods. However, these implementations are generally not very useful and are often overridden in subclasses to provide more meaningful behavior.
 
         Overriding toString() Method:
-
             It is common practice to override the toString() method in user-defined classes to provide a meaningful string representation of the object. This is often useful for debugging and logging purposes.
 
         Equals and HashCode:
-
             The equals() and hashCode() methods are closely related and are often overridden together. The equals() method is used to check for object equality, while the hashCode() method is used for storing objects in hash-based collections like HashMap and HashSet.
         
         Use in Generics:
-
             The Object class is used extensively in Java generics. When a generic type is not specified, it defaults to Object. For example, ArrayList without a type argument is effectively an ArrayList<Object>.
 
     In summary, the Object class serves as the foundation of the Java class hierarchy and provides common methods and behaviors that are inherited by all classes. Understanding the Object class and its methods is essential for effective Java programming.
@@ -217,7 +214,6 @@
     In Java, upcasting and downcasting are related to the assignment of object references between superclass and subclass types. These concepts are closely tied to inheritance and polymorphism. Here's an explanation of each:
 
     Upcasting:
-
         Upcasting involves assigning a reference of a subclass type to a reference variable of a superclass type.
         Upcasting is always safe and implicit because a subclass object "is a" superclass object (due to inheritance).
         It allows you to treat the subclass object as if it were an instance of the superclass.
@@ -228,7 +224,6 @@
         Animal animal = new Dog(); // Upcasting
 
     Downcasting:
-
         Downcasting involves assigning a reference of a superclass type to a reference variable of a subclass type.
         Downcasting is potentially unsafe and requires explicit casting because a superclass object may not necessarily be a subclass object.
         It allows you to access the specific methods or fields of the subclass that are not available in the superclass.
@@ -237,7 +232,6 @@
         Dog dog = (Dog) animal; // Downcasting
 
     Safety of Downcasting:
-
         Downcasting can lead to ClassCastException at runtime if the object being referenced is not actually an instance of the subclass.
         To avoid this exception, you can use the instanceof operator to check the type before performing downcasting:
         
@@ -247,7 +241,6 @@
         }
 
     Use Cases:
-
         Upcasting is commonly used to achieve polymorphism, where objects of different subclasses can be treated uniformly as instances of their common superclass.
         Downcasting is used when you need to access specific methods or fields of a subclass that are not available in the superclass.
         
@@ -255,4 +248,33 @@
 
 ###	Abstract keyword
 
-    
+    In Java, the abstract keyword is used to define abstract classes and abstract methods. Here's an explanation of both:
+
+    Abstract Class:
+        An abstract class is a class that cannot be instantiated directly. It serves as a blueprint for other classes and may contain abstract methods, concrete methods, or both.
+        Abstract classes are declared using the abstract keyword.
+        Abstract classes can have constructors, fields, and concrete methods (methods with a body).
+        Abstract classes may also contain abstract methods (methods without a body), which are declared using the abstract keyword and are intended to be implemented by subclasses.
+        
+        abstract class Shape {
+            abstract void draw(); // Abstract method
+            void display() {
+                System.out.println("Displaying shape");
+            }
+        }
+
+    Abstract Method:
+        An abstract method is a method declared in an abstract class but does not have a method body.
+        Abstract methods are intended to be implemented by subclasses. They provide a contract for subclasses to follow.
+        Abstract methods are declared using the abstract keyword and must end with a semicolon (;).
+        Subclasses of an abstract class must implement all abstract methods defined by the superclass, or they themselves must be declared abstract.
+
+        abstract class Animal {
+            abstract void makeSound(); // Abstract method
+        }
+        
+    Use Cases:
+        Abstract classes are useful when you want to provide a common interface for a group of related classes, but you don't want to provide a complete implementation.
+        Abstract methods are useful when you want to define a method signature without specifying the implementation, leaving it to subclasses to provide their own implementations.
+        
+    In summary, abstract classes and methods in Java provide a way to define common interfaces and behaviors for subclasses while allowing for variations in implementation. They promote code reusability, maintainability, and flexibility in object-oriented design.

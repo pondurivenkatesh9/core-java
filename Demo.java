@@ -1,52 +1,39 @@
-//final - variable, method, class
-
-//final class Calc
-//{
-//	public void show()
-//	{
-//		System.out.println("in Calc show");
-//	}
-//	public void add(int a, int b)
-//	{
-//		System.out.println(a+b);
-//	}
-//}
-
-
-class Calc
+interface A
 {
-	public final void show()
-	{
-		System.out.println("By Navin");
-	}
-	public void add(int a, int b)
-	{
-		System.out.println(a+b);
-	}
-}
-
-class AdvCalc extends Calc
-{
-	// public void show()
-	// {
-	// 	System.out.println("By John");
-	// }
-}
-
+//	public abstract void show();
+//	public abstract void config();
+	int age=44;            // final and static 
+	String area="Mumbai";
 	
-public class  Demo{
+	void show();
+	void config();
+}
+
+class B implements A
+{
+	public void show()
+	{
+		System.out.println("in show");
+	}
+	public void config()
+	{
+		System.out.println("in cofing");
+	}
+}
+
+public class Demo {
     public static void main(String[] args) {
-        
-//    	final int num=8;
-//    	num=9;
-//    	System.out.println(num);
+
+    	A obj;
+    	obj=new B();
     	
-//    	Calc obj= new Calc();
-//    	obj.show();
-//    	obj.add(4, 5);
-    	
-    	AdvCalc obj= new AdvCalc();
     	obj.show();
-    	obj.add(4, 5);
+    	obj.config();
+    	
+ //   	A.area="Hyderabad";
+    	
+    	System.out.println(A.area);
+        
     }
 }
+

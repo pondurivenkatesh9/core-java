@@ -74,9 +74,9 @@
 -	[Anonymous Inner class](12%20-%20Inner%20Classes/README.md#anonymous-inner-class)
 -	[Abstract and Anonymous Inner class](12%20-%20Inner%20Classes/README.md#abstract-and-anonymous-inner-class)
 ## Interfaces:
+-   [Need of Interface](13%20-%20Interfaces/README.md#need-of-interface)
 -	[What is Interface](13%20-%20Interfaces/README.md#what-is-interface)
 -	[More on Interfaces](13%20-%20Interfaces/README.md#more-on-interfaces)
--	[Need of Interface](13%20-%20Interfaces/README.md#need-of-interface)
 ## Enum and Annotations:
 -	[What is Enum](14%20-%20Enum%20and%20Annotations/README.md#what-is-enum)
 -	[Enum if and switch](14%20-%20Enum%20and%20Annotations/README.md#enum-if-and-switch)
