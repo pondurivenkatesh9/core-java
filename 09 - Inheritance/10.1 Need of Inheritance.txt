@@ -11,7 +11,7 @@ Class Calc     //Parent class , Super, Base
 	div()
 }
 
-Class AdvCalc     //Child class, Sub, Derived 
+Class AdvCalc extends Calc    //Child class, Sub, Derived 
 {
 	{
 	}
